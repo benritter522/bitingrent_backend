@@ -21,13 +21,13 @@ const { show } = require('./stuff'); // const show = require('./stuff').show;
 app.use(cors());
 app.use(express.json());
 
-if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging') {
-    app.use(express.static('client/build'));
-    app.get('*', (req, res) => {
-        // res.sendFile(path.join('project_3_marge_bitingRent', '/client/build/index.html'));
-        res.sendFile(path.join(__project_3_marge_bitingRent + '/client/build/index.html'));
-    });
-}
+// if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging') {
+//     app.use(express.static('client/build'));
+//     app.get('*', (req, res) => {
+//         // res.sendFile(path.join('project_3_marge_bitingRent', '/client/build/index.html'));
+//         res.sendFile(path.join(__project_3_marge_bitingRent + '/client/build/index.html'));
+//     });
+// }
 
 mongoose.connect(MONGOURI, {
     useNewUrlParser: true,
