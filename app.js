@@ -11,7 +11,7 @@ const songsController = require('./controllers/songs');
 const plantsController = require('./controllers/plants');
 const MONGOURI = process.env.MONGODB_URI; // currently for bitingRent
 // ^ bitingRent is collection name with subdatabases: plants, songs
-const PORT = process.env.PORT || 3000; 
+const PORT = process.env.PORT || 3007; 
 // ^ does this mean I can put my PORT value in my .env to be hidden if wanted?
 const { show } = require('./stuff'); // const show = require('./stuff').show;
 // const show = { show: console.log }.show;

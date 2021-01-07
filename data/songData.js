@@ -2,8 +2,7 @@ const songs = [
     {
         title: "Ain't No Forest",
         firstLine: "I know this ain't no forest, but it's gonna have to do...",
-        lyrics: 
-        [
+        lyrics: [
             "I know this ain't no forest, ",
             "But it's gonna have to do.",
             "We brought out some fun and some tasty jams.",
@@ -29,8 +28,7 @@ const songs = [
     {
         title: "Listen To The Wall",
         firstLine: "I was afraid to listen to The Wall...",
-        lyrics: 
-        [
+        lyrics: [
             "I was afraid to listen to The Wall.",
             "I'll never learn not to fear just one small phone call.",
             "But luckily, I have learned to see some, not all,",
@@ -66,10 +64,9 @@ const songs = [
         ]
     },
     {
-        title: "Left of Me (Telephone",
+        title: "Left of Me (Telephone)",
         firstLine: "Every night, I wake up to the sins...",
-        lyrics: 
-        [
+        lyrics: [
             "Every night, I wake up to the sins",
             "Of every man that I have ever been.",
             "Every night I'm spent.",
@@ -95,7 +92,7 @@ const songs = [
             "I'll take what's left of me.",
             "",
             "I'm getting kinda tired,",
-            "pretending someone else's mistake's my own.",
+            "Pretending someone else's mistake's my own.",
             "Hard to think of something scarier than ",
             "Picking up the telephone.",
             "Now I get this feeling",
@@ -104,7 +101,7 @@ const songs = [
             "Pulling teeth or trying to pass a kidney stone.",
             "",
             "The tides are teeming with fire,",
-            "overwhelming me with tears and smoke.",
+            "Overwhelming me with tears and smoke.",
             "And my vision's blurred, can't see how",
             "There's any option but to joke.",
             "Like my waning desire,",
@@ -122,6 +119,101 @@ const songs = [
             "Just to drown out the telephone.",
             "",
             "But someday, I will learn not to fear that phone call."
+        ]
+    },
+    {
+        title: "Moving Along",
+        firstLine: "Instrumental",
+        lyrics: [
+            "This song has no lyrics."
+        ]
+    },
+    {
+        title: "Naked Eye",
+        firstLine: "When tears fall from the naked eye...",
+        lyrics: [
+            "When tears fall from the naked eye,",
+            "And a hopeful soul looks up to the silent sky,",
+            "No truth's revealed, no secret unsealed.",
+            "Silently we wait...maybe next year.",
+            "",
+            "You know me, and I know the deed",
+            "That my hands have done.",
+            "The feeling's gone.",
+            "It's too late to sow the seeds.",
+            "",
+            "I know blue, and you know it too.",
+            "It's a clear-cut fact.",
+            "Has your heart turned black?",
+            "Don't you try to play the fool.",
+            "",
+            "It's too hard to show the pain that grows",
+            "As time continues on.",
+            "But I just can't find no answers",
+            "On the wind that chills my bones.",
+            "",
+            "I can't take another night ",
+            "Spent on my own,",
+            "But I just can't find it in my heart",
+            "To call you on the phone.",
+            "",
+            "When does a heart move on?",
+            "",
+            "When tears fall from the naked eye,",
+            "And a hopeful soul looks up,",
+            "Hears no reply."
+        ]
+    },
+    {
+        title: "Colors of My Pane",
+        firstLine: "Try to look out though my window, but I'm blind; my glass is stained...",
+        lyrics: [
+            "Try to look out though my window, ",
+            "But I'm blind--my glass is stained.",
+            "Blue and orange, green and yellow,",
+            "All the colors of my pane.",
+            "",
+            "And I can feel I'm growing hollow.",
+            "My mind drifts from my brain.",
+            "All I see are brilliant bolts,",
+            "But they're deep inside my brain.",
+            "",
+            "Thought I'd have a better view now",
+            "Of how my life's supposed to be.",
+            "Still my vision's blurred can't see how",
+            "Happiness will come to me.",
+            "",
+            "Though memories my make thoughts simmer,",
+            "I manage to crack a smile.",
+            "In the distance, something glimmers,",
+            "So I'll walk another mile."
+        ]
+    },
+    {
+        title: "Fast As A...",
+        firstLine: "I find we're only winning when we try to show ourselves...",
+        lyrics: [
+            "I find we're only winning ",
+            "When we try to show ourselves",
+            "It's fine to take the time,",
+            "So long as you keep a little intuition.",
+            "",
+            "They all say, 'Just don't let it get you down,'",
+            "But that's not right.",
+            "It's fine to feel the pain,",
+            "so long as you keep the future in your vision",
+            "",
+            "So if you think you see a change",
+            "In the corner of your eye,",
+            "Please don't be scared.",
+            "You'll be just fine.",
+            "Just put your hands in mine;",
+            "We'll stand the test of...",
+            "",
+            "I still see that captivating ",
+            "Glimmer in your eyes.",
+            "It's fine to see your face,",
+            "So long as I have a way to look away."
         ]
     }
 ]
