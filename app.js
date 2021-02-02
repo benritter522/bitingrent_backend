@@ -9,6 +9,7 @@ const cors = require('cors'); // needed to talk with frontend
 // const jwt for authentication
 const songsController = require('./controllers/songs');
 const plantsController = require('./controllers/plants');
+const projectsController = require('./controllers/projects')
 const MONGOURI = process.env.MONGODB_URI; // currently for bitingRent
 // ^ bitingRent is collection name with subdatabases: plants, songs
 const PORT = process.env.PORT || 3007; 
@@ -48,6 +49,8 @@ mongoose.connection.once('open', () => {
 
 app.use('/songs', songsController);
 app.use('/plants', plantsController);
+app.use('/', projectsController);
+
 
 // app.post('/register')
 
