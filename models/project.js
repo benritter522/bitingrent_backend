@@ -1,9 +1,11 @@
 const { Schema, model } = require('mongoose');
 
 const projectSchema = Schema({
-    title:      { type: String, required: true },
-    image:      { type: String, required: true },
-    links:      { type: [String], required: true }
+    title:      { type: String, required: false },
+    image:      { type: String, required: false },
+    // links:      { type: [String], required: true } 
+    links:      [{ label: String, url: String }] // adding descriptions to links
+
     // any new attributes must 
     // NOT BE REQUIRED
 
